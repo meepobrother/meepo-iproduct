@@ -1,7 +1,7 @@
 {
-    "name": "meepo-ipreview",
-    "version": "1.0.2",
-    "repository": "https://github.com/meepobrother/meepo-ipreview.git",
+    "name": "meepo-iproduct",
+    "version": "1.0.4",
+    "repository": "https://github.com/meepobrother/meepo-iproduct.git",
     "author": "imeepos<1037483576@qq.com>",
     "license": "MIT",
     "private": false,

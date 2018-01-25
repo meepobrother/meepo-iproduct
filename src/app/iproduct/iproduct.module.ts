@@ -1,16 +1,20 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
 import { HttpClientModule } from '@angular/common/http';
 import { IProductComponent } from './iproduct';
-
+import { NgComponentDirective } from './ng-component';
 @NgModule({
     declarations: [
-        IProductComponent
+        IProductComponent,
+        NgComponentDirective
     ],
     exports: [
         IProductComponent
     ],
     imports: [
-        HttpClientModule
+        HttpClientModule,
+        CommonModule
     ],
 })
 export class IProductModule {}

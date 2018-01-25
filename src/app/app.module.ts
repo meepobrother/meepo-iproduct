@@ -6,7 +6,6 @@ import { ReactCommonModule } from 'ng-react-component';
 import { IDesignModule, DesignService, DESIGN_COMPONENTS } from 'meepo-idesign';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpService } from './http.service';
-
 import { IProductModule } from './iproduct';
 
 @NgModule({
