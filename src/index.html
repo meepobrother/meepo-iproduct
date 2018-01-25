@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{if !empty($title)}{php echo $title}{else}{php echo $_W['page']['title']}{/if}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <div style="display:none;">
+    {php echo register_jssdk()}
+  </div>
+  <script>
+    window['UserInfo'] = { php echo json_encode($userinfo) }
+  </script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html>
