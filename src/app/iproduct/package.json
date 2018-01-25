@@ -1,0 +1,21 @@
+{
+    "name": "meepo-ipreview",
+    "version": "1.0.2",
+    "repository": "https://github.com/meepobrother/meepo-ipreview.git",
+    "author": "imeepos<1037483576@qq.com>",
+    "license": "MIT",
+    "private": false,
+    "peerDependencies": {
+        "@angular/core": "*",
+        "@angular/common": "*",
+        "rxjs": "*"
+    },
+    "ngPackage": {
+        "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+        "dest": "./dist",
+        "workingDirectory": "./.ng_build",
+        "lib": {
+            "entryFile": "./index.ts"
+        }
+    }
+}

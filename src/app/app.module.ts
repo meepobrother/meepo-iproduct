@@ -7,6 +7,8 @@ import { IDesignModule, DesignService, DESIGN_COMPONENTS } from 'meepo-idesign';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpService } from './http.service';
 
+import { IProductModule } from './iproduct';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +16,7 @@ import { HttpService } from './http.service';
   imports: [
     BrowserModule,
     ReactCommonModule,
-    IDesignModule,
+    IProductModule,
     HttpClientModule
   ],
   providers: [
